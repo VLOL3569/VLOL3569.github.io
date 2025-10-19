@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen Liu - Personal Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Source+Serif+4:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Owen Liu</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experiences" class="nav-link">Experiences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="music.html" class="nav-link">Music</a>
+                </li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+                <section id="home" class="music-hero">
+                    <div class="container" style="display: flex; align-items: center; justify-content: space-between; gap: 2rem;">
+                        <div style="flex: 1;">
+                            <div class="music-hero-content">
+                                <h1 class="music-hero-title">Owen Liu</h1>
+                                <p class="music-hero-subtitle">Welcome to my page!</p>
+                                <div class="hero-buttons">
+                                        <a href="#about" class="btn btn-primary">About Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/owen-profile.jpg" alt="Owen Liu portrait">
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            I'm a 2nd year student studying Integrated Biomedical Engineering and Health Sciences at McMaster University. 
+                            My interest lies in leveraging emerging technologies to enhance healthcare outcomes.
+                        </p>
+                        <p>
+                            Aside from my academic pursuits, I enjoy volunteering, playing basketball, exploring nature, and music! I am always
+                            eager to meet new people and collaborate on exciting projects, so please reach out!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Screenshot 2025-10-17 161813.png" alt="Meducator Issue 47 Cover" style="object-position: center 70%;">
+                        </div>
+                        <div class="project-content">
+                            <h3>Critical Review Publication</h3>
+                            <p>Through the MeduCollab program, I co-authored a critical review “Crossing Species Lines: The Clinical Future of Xenotransplantation” that was published in the 47th issue of <em>the Meducator</em>, McMaster's Undergraduate Health Sciences Journal.</p>
+                            <div class="project-links">
+                                <a href="files/issuu_output.pdf#page=12" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Read publication
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/PXL_20250322_181058715.jpg" alt="Presenting at the INNOVATX Competition">
+                        </div>
+                        <div class="project-content">
+                            <h3>Global Health Case Competition 1st Prize</h3>
+                            <p>Out of over 50 participating teams, we won the annual INNOVATX case competition organized by <em>Médecins Sans Frontières</em> by proposing the implementation of <em>Wolffia globosa</em>, a novel and promising food source, in Yemen. Our abstract was later published in the URNCST journal.</p>
+                            <div class="project-links">
+                                <a href="https://urncst.com/index.php/urncst/article/view/897/484" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Read publication
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Image (16) (1).jpg" alt="Hip Implant Design Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>Hip Implant Design</h3>
+                            <p> We designed a new hip implant in AutoDesk Inventor for a 51-year old total hip arthroplasty patient suffering from aseptic loosening from previous implant. We presented our project at the iBioMed Fall Showcase.</p>
+                            <div class="project-tech">
+                                <span>AutoDesk Inventor</span>
+                                <span>Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="files/Poster.pdf" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Our Poster
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/image.png" alt="Health Device Prototype">
+                        </div>
+                        <div class="project-content">
+                            <h3>Health Device Prototype</h3>
+                            <p>Using a Raspberry Pi, me and my IBEHS 1P10 team members developed a 3D-printed prototype of an automated device for the blind/visually-impaired demographic to safely and intuitively chop fruits and vegetables.</p>
+                            <div class="project-tech">
+                                <span>AutoDesk Inventor</span>
+                                <span>Raspberry Pi</span>
+                                <span>Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/VLOL3569/The-CHOPPER/blob/main/code_1%20(1).py" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Screenshot 2025-10-17 180713.png" alt="Novel Therapeutic R&D Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>Novel Therapeautic R&D</h3>
+                            <p>Me and my IBEHS 1EP6 team members designed a novel AAV-based gene therapy a TGF-β pathway to reduce intraocular pressure in glaucoma. Using BioRender to map out the pathways in our proof-of-concept, we created a research presentation and showcased our proposal to professors and peers.</p>
+                            <div class="project-tech">
+                                <span>BioRender</span>
+                            </div>
+                            <div class="project-links"></div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/330282616_756809349410175_64937290419717450_n_756809342743509.jpg" alt="Protein Bioinformatics Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>Protein Bioinformatics Project</h3>
+                            <p>I performed SDS-PAGE gel electrophoresis on actin samples from five aquatic species to construct a cladogram that represented the evolutionary relationships between the species. Using BioPython to access amino acid sequences from the NCBI database, I computed the percent identity between each species.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>SDS-PAGE</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="files/Final Draft (1).pdf" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Report
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiences" class="experiences">
+            <div class="container">
+                <h2 class="section-title">Experiences</h2>
+                <div class="experiences-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-image">
+                                <img src="images/draft logo colour 2.png" alt="MusicBox Children's Charity">
+                            </div>
+                            <div class="timeline-text">
+                                <h3>MusicBox Children's Charity - McMaster Chapter</h3>
+                                <h4>Volunteer</h4>
+                                <span class="timeline-date">Oct 2025 - Present</span>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-image">
+                                <img src="images/90bc8b151c666743fb1e454b5eda74e788c70c577359e102e186584cc62ec748-rimg-w400-h400-gmir.png" alt="Holland Bloorview Kids Rehabilitation Hospital">
+                            </div>
+                            <div class="timeline-text">
+                                <h3>Holland Bloorview Kids Rehabilitation Hospital</h3>
+                                <h4>Therapeautic Recreation, Life Skills, and Aquatics Volunteer</h4>
+                                <span class="timeline-date">April 2025 - August 2025</span>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-image">
+                                <img src="images/city-of-toronto-logo-png_seeklogo-445836.png" alt="City of Toronto">
+                            </div>
+                            <div class="timeline-text">
+                                <h3>Carefree Lodge Long-Term Care Home</h3>
+                                <h4>Volunteer</h4>
+                                <span class="timeline-date">March 2022 - July 2024</span>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-image">
+                                <img src="images/RCSC-main-graphic-2017.png" alt="Royal City Soccer Club">
+                            </div>
+                            <div class="timeline-text">
+                                <h3>Royal City Soccer Club</h3>
+                                <h4>Volunteer</h4>
+                                <span class="timeline-date">July 2022 - August 2022</span>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Owen Liu</h3>
+                    <p></p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#experiences">Experiences</a>
+                    <a href="#projects">Projects</a>
+
+                    <a href="music.html">Music</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/owen-liu-32489124a/" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Owen Liu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
