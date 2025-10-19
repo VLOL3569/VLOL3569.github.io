@@ -1,7 +1,6 @@
 # Owen Liu Personal Website
 
-This is a static personal website (plain HTML/CSS/JS) with optional GSAP animations.
-
+This is a static personal website (plain HTML/CSS/JS).
 ## Setup Instructions
 
 ### 1. Install Dependencies
