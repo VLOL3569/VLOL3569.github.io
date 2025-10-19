@@ -40,6 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .theme-toggle {
@@ -93,6 +94,9 @@ body {
     display: flex;
     list-style: none;
     gap: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-link {
@@ -785,31 +789,6 @@ html:not(.dark) .music-hero {
     gap: 1rem;
     flex-wrap: wrap;
 }
-
-.music-philosophy {
-    background-color: var(--background);
-}
-
-.philosophy-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 4rem;
-    align-items: start;
-}
-
-.philosophy-text p {
-    font-size: 1.1rem;
-    margin-bottom: 1.5rem;
-    color: var(--muted-foreground);
-    line-height: 1.7;
-}
-
-.philosophy-stats {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
 .stat-item {
     text-align: center;
     padding: 1.5rem;
@@ -919,6 +898,7 @@ html:not(.dark) .music-hero {
         box-shadow: var(--shadow-lg);
         padding: 2rem 0;
         border-top: 1px solid var(--border);
+        transform: none;
     }
 
     .nav-menu.active {
@@ -932,16 +912,6 @@ html:not(.dark) .music-hero {
     .section-title {
         font-size: 2rem;
     }
-
-    .philosophy-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .philosophy-stats {
-        grid-template-columns: 1fr 1fr;
-    }
-
     .footer-content {
         grid-template-columns: 1fr;
         text-align: center;
@@ -986,10 +956,6 @@ html:not(.dark) .music-hero {
     .composition-meta {
         flex-direction: column;
         gap: 0.5rem;
-    }
-
-    .philosophy-stats {
-        grid-template-columns: 1fr;
     }
 }
 
